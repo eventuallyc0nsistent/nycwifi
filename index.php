@@ -19,7 +19,8 @@
  				'id' => $id,
  				'name' => $name,
  				'latitude'=>$latitude,
- 				'longitude'=>$longitude
+ 				'longitude'=>$longitude,
+ 				'address' => $address
  				
 
  		) ;
