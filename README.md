@@ -1,4 +1,4 @@
-#Finding free Wi-Fi locations around NYC
+###Finding free Wi-Fi locations around NYC
 
 Find the closest locations with Free-Wifi using the XML data sets available from data sets by nyc.gov
 
