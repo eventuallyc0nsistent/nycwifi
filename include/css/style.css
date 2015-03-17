@@ -1,0 +1,11 @@
+#map {
+  height:100%;
+  width: 100%;
+}
+
+.loading-gif {
+	background-image: url('../img/loader.gif');
+	background-position: center 50%;
+	height:15px;
+	background-repeat: no-repeat;
+}
