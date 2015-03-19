@@ -9,3 +9,18 @@
 	height:15px;
 	background-repeat: no-repeat;
 }
+
+.center{
+	text-align: center;
+}
+
+#floating-panel{
+	top:20px;
+	right:20px;
+	position:absolute;
+	z-index: 1000;
+}
+
+.gm-style-iw{
+	text-transform: lowercase;
+}

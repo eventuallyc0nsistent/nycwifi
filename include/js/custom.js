@@ -62,9 +62,13 @@ $(document).ready(function() {
 				// add the marker for the location
 				$('#map').gmap('addMarker', { 
 					'position': new google.maps.LatLng(lat, lng),
-					'infoWindow' : { content: "<b>"+value[21]+"</b><br/>"+ value[13]} 
 				}).click(function() {
-					$('#map').gmap('openInfoWindow', { content : value[21]+"<br/>"+ value[13] }, this);
+					$('#map').gmap('openInfoWindow', 
+								   { content : "<b>"+value[21]+"</b>\
+								   				<br/>"+ value[13] +
+								   				'<br><a href="#">Walk</a>\
+								   				&nbsp;<a href="#">transit</a>'},
+								   this);
 				});
 			});
 
