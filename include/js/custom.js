@@ -61,14 +61,14 @@ $(document).ready(function() {
 				// create InfoWindow
 				$.each(data, function(index,value) {
 
-					var lat = value[14];
-					var lng = value[15];
+					var lat = value[15];
+					var lng = value[16];
 
 					$('#map').gmap('addMarker', { 
 						'position': new google.maps.LatLng(lat, lng),
 						}).click(function() {
 								$('#map').gmap('openInfoWindow', 
-							    			   {content : "<b>"+value[21]+"</b>\
+							    			   {content : "<b>"+value[22]+"</b>\
 										   				  <br/>"+ value[13] +
 										   				  '<br><span lat="'+lat+'" lng="'+lng+'">\
 										   				  <a class="walk">walk</a>\
