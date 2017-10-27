@@ -63,13 +63,12 @@ $(document).ready(function() {
 
 					var lat = value[15];
 					var lng = value[16];
-
 					$('#map').gmap('addMarker', { 
 						'position': new google.maps.LatLng(lat, lng),
 						}).click(function() {
 								$('#map').gmap('openInfoWindow', 
 							    			   {content : "<b>"+value[22]+"</b>\
-										   				  <br/>"+ value[13] +
+										   				  <br/>"+ value[14] +
 										   				  '<br><span lat="'+lat+'" lng="'+lng+'">\
 										   				  <a class="walk">walk</a>\
 										   				  &nbsp;<a class="transit">transit</a></span>'},
